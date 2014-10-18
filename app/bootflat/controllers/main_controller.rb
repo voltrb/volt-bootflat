@@ -1,4 +1,4 @@
 module Bootflat
-  class MainController < ModelController
+  class MainController < Volt::ModelController
   end
 end
