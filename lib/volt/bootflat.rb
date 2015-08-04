@@ -1,7 +1,5 @@
-require "volt/bootflat/version"
-
-class Volt
-  class Bootflat
+module Volt
+  module Bootflat
     # Your code goes here...
   end
 end
