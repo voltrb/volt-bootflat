@@ -1,13 +1,13 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'volt/bootflat/version'
 
-version = File.read(File.expand_path('../VERSION', __FILE__)).strip
 
 
 Gem::Specification.new do |spec|
   spec.name          = "volt-bootflat"
-  spec.version       = version
+  spec.version       = Volt::Bootflat::VERSION
   spec.authors       = ["Ryan Stout"]
   spec.email         = ["ryan@agileproductions.com"]
   spec.summary       = %q{Bootflat Bootstrap theme for Volt framework}
